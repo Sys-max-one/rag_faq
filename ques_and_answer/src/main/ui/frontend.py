@@ -1,5 +1,7 @@
 import streamlit as st
-from src.main.services.index_data import IndexDataService
+from ques_and_answer.src.main.services.index_data import IndexDataService
+#from src.main.services.index_data import IndexDataService
+#from index_data import IndexDataService
 from ques_and_answer.src.main.services.rag_response import RAGResponse
 
 index_data_service = IndexDataService()
